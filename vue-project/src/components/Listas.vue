@@ -10,7 +10,7 @@ defineProps({
 <template>  
     <div>
         <h1>lista</h1>
-        <p>nomeuD : {{ nome }}</p>
+        <p>nomeuDD : {{ nome }}</p>
         <ul>
             <li v-for="vachorro in vachorros">Nome : {{ vachorro.nome }} | {{ vachorro.idade }}</li>
         </ul>
